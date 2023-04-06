@@ -1,0 +1,91 @@
+/* Reset all margins & padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+/* 3 column layout using flexbox */
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+header, footer {
+    background: #e6e7e7;
+    font-family: 'Shadows Into Light', cursive;
+    padding: 10px 16px;
+}
+
+/* Sticky behavior of the header*/
+header {
+    position: sticky;
+    top: 0;
+}
+
+/* Page content */
+.columns {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 33.33%;
+ }
+
+#navigation {
+    background: #cff1f9;
+}
+
+#feed {
+    background: #f9f4c2;
+}
+  
+#news {
+    background: #fdedf6;
+}
+
+form {
+    border: 3px solid #ffffff;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password], input[type=email] {
+    width: 100%;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin: 8px 0px;
+    padding: 12px 20px;
+}
+
+button, #backBtnLink, #cancelBtnLink, #editBtnLink, #showProfileBtnLink {
+    background-color: #04AA6D;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    margin: 8px 0px;
+    padding: 14px 20px;
+    text-decoration: none;
+    width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+}
+
+#currentlyLoggedInUser {
+    text-align: right;
+}
