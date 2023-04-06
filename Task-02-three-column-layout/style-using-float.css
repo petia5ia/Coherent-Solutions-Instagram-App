@@ -1,0 +1,54 @@
+/* Reset all margins & padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background: #e6e7e7;
+    font-family: 'Shadows Into Light', cursive;
+    padding: 10px 16px;
+}
+
+/* Sticky behavior of the header*/
+header {
+    position: sticky;
+    top: 0;
+}
+
+/* Page content */
+.columns {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 1500px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#navigation {
+    background: #cff1f9;
+}
+
+#feed {
+    background: #f9f4c2;
+}
+  
+#news {
+    background: #fdedf6;
+}
+
+footer{
+    clear: both;
+}
+
+img {
+    display: block;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}

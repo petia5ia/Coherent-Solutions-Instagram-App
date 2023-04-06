@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    
+    <title>Instagram</title>
+</head>
+<body>
+    <header>
+        <h2>Header</h2>
+    </header>
+
+    <main class="columns">
+        <aside class="column" id="navigation">
+        </aside>
+
+        <div class="column" id="feed">
+            <div id="currentlyLoggedInUser">
+
+            </div>
+
+            <form id="loginRegForm">
+                <div class="container">
+                    <input type="email" placeholder="Enter Email" name="email" required>
+
+                    <input type="text" placeholder="Enter Username" name="username" required>
+
+                    <input type="password" placeholder="Enter Password" name="userpsw" required>
+
+                    <button type="submit" name="loginBtn" id="loginBtn">Login</button>
+                    <div class="container" id="registerContainer">
+                        <p>You don't have an account? <a href="#" id="registerLink">Register</a>.</p>
+                    </div>
+
+                    <button type="submit" name="registerBtn"  id="registerBtn">Register</button>
+                    <div class="container" id="loginContainer">
+                        <p>Already have an account? <a href="#" id="loginLink">Sign in</a>.</p>
+                    </div>
+                </div>
+            </form>
+
+            <div id="userPage">
+
+            </div>
+        </div>
+        
+        <aside class="column" id="news">
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2022 Footer</p>
+    </footer>
+</body>
+</html>

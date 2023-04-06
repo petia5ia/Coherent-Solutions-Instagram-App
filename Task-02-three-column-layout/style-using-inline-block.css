@@ -1,0 +1,53 @@
+/* Reset all margins & padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background: #e6e7e7;
+    font-family: 'Shadows Into Light', cursive;
+    padding: 10px 16px;
+}
+
+/* Sticky behavior of the header*/
+header {
+    position: sticky;
+    top: 0;
+}
+
+/* Page content */
+.columns {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0px; /* to remove the space between inline-block elements */
+    height: 1500px;
+}
+
+.column {
+    display: inline-block;
+    font-size: 20px; /* to remove the space between inline-block elements */
+    vertical-align: top;
+    width: 33.33%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#navigation {
+    background: #cff1f9;
+}
+
+#feed {
+    background: #f9f4c2;
+}
+  
+#news {
+    background: #fdedf6;
+}
+
+img {
+    display: block;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
