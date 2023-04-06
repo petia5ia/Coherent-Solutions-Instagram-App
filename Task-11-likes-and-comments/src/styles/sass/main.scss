@@ -1,0 +1,138 @@
+/* Reset all margins & padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+/* 3 column layout using flexbox */
+body {
+    background: #bee3db;
+    color: #555b6e;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+header, footer {
+    background: #89b0ae;
+    font-family: 'Shadows Into Light', cursive;
+    padding: 10px 16px;
+}
+
+/* Sticky behavior of the header*/
+header {
+    position: sticky;
+    top: 0;
+}
+
+header > h2 {
+    float: left;
+}
+
+header > a {
+    float: right;
+    font-size: 24px;
+    margin: 0px 8px;
+}
+
+header > img {
+    border-radius: 50%;
+    cursor: pointer;
+    float: right;
+    margin: 0px 8px;
+    width: 5%;
+}
+
+/* Page content */
+.columns {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 33.33%;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password], input[type=email] {
+    width: 100%;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin: 8px 0px;
+    padding: 12px 20px;
+}
+
+button, #backBtnLink, #cancelBtnLink, #editBtnLink, #showProfileBtnLink {
+    background-color: #555b6e;
+    border: none;
+    color: #faf9f9;
+    cursor: pointer;
+    margin: 8px 0px;
+    padding: 14px 20px;
+    text-decoration: none;
+    width: 100%;
+}
+
+.likeButton {
+    background-color: #f28482;
+    width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+.container {
+    border: 3px solid #faf9f9;
+}
+
+.container-with-padding {
+    padding: 16px;
+}
+
+.floated-left {
+    float: left;
+}
+
+#currentlyLoggedInUser {
+    text-align: right;
+}
+
+img {
+    width: 100%;
+}
+
+.rounded-img {
+    width: 15%;
+    border-radius: 50%;
+    //vertical-align: middle;
+}
+
+/* Center the login and register forms */
+#feed {
+    margin: auto;
+}
+
+.fa-comment, .fa-heart {
+    color: #f28482;
+}
+
+.fa-house, .fa-users {
+    color: #555b6e;
+}
+
+.fa-comment, .fa-heart, .showRepliesBtn {
+    cursor: pointer;
+}
+
+.fa-comment:hover, .fa-heart:hover, .showRepliesBtn:hover {
+    opacity: 0.8;
+}
